@@ -43,7 +43,7 @@
                     <view key="view" contentMode="scaleToFill" id="2Hz-KM-nxh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.64446455240249634" green="0.54419088363647461" blue="0.91253012418746948" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="y3e-A9-MMQ"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 2" id="ZXz-JB-f2b"/>
@@ -59,7 +59,8 @@
                     <view key="view" contentMode="scaleToFill" id="4gP-v8-pI3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.0047764657065272331" green="0.94386094808578491" blue="0.99943715333938599" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.63034260272979736" green="0.57180941104888916" blue="0.91472363471984863" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Qt6-3m-VRi"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="d0p-Bg-uN4"/>
@@ -72,7 +73,7 @@
         <scene sceneID="KMy-mI-CDn">
             <objects>
                 <tabBarController id="CSM-ow-Cym" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fwe-mR-tZm">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fwe-mR-tZm" colorLabel="IBBuiltInLabel-Blue">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -109,6 +110,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="ZYD-1G-m0h" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="J3N-xV-UA9">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
